@@ -3,7 +3,7 @@
 function Header(){
   return(
 <>
-   <h1>Travel-Destination</h1>
+   <h1 style={{textAlign:"center"}}>Travel-Destination</h1>
 </>
   );
 
