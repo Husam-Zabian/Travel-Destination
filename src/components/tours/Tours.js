@@ -1,3 +1,5 @@
+import Tour from './tour/Tour'
+
 const data = require("../../data/db.json");
 
 function Tours(){
@@ -5,17 +7,11 @@ function Tours(){
 <>
  {data.map((item)=>{
    return(
-        <div style={{textAlign:"center"}} key={item.ID}>
-            <h3>{item.name}</h3>
-            <img src={item.image} alt={item.name}></img>
-            <hr/>
-        </div>
+            <Tour name = {item.name} image={item.image} key={item.ID} />
       )
-    })}
-    
-            
+    })} 
 </>
      ) ;
 }
 
-export default Tours
+export default Tours;
