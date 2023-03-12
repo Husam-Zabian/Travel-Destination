@@ -1,0 +1,163 @@
+h1{
+    font-size: 50px;
+    font-family: 'Dancing Script';
+}
+nav {
+    position: RELATIVE;
+    top: 30px;
+    right: 10px;
+}
+li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+a{
+    color: #0000ff3d;
+    text-decoration: none;
+    font-size: 20px;
+}
+.divheader{
+    display: flex;
+    background-color: #0082ffa8;
+}
+
+.logo{
+    width: 140px;
+    border: 3px solid #0191d7a6;
+    border-radius: 50%;
+}
+
+.menu li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    border: 1px solid #00000003;
+    background-color: #a52a79a8;
+    box-shadow: 1px 1px 5px 1px;
+    font-family: 'Kaushan Script';
+    
+}
+
+.menu li:hover{
+    background-color: gold;
+    
+}
+
+.menu li a:hover{
+    color: white !important;
+} 
+
+table {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    background-color: #faebd7b3;
+    box-shadow: 13px 13px 15px 0px;
+}
+main {
+    background-image: url(https://i.pinimg.com/736x/9f/7e/45/9f7e45e7fc5230da2ce48887864c1efb.jpg);
+    background-repeat: no-repeat;
+    height: 538px;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    height: 145px;
+}
+th{
+    font-family: 'Lobster Two';
+    font-size: 25px;
+}
+
+.fa {
+        padding: 15px;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #57adff;
+ }
+ td{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+ .av2{
+    background-color: #ff000073;
+    color: white;
+ }
+ .av1{
+    background-color: #0080007d;
+    color: white;
+ }
+ .av3{
+    background-color: #ffa5007a;
+    color: white;
+ }
+h2{
+    font-family: 'Miltonian';
+    font-size: 45px;
+}
+.aboutpar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto; 
+    position: relative;
+    top: 20px;
+    background-color: #ec8066ad;
+}
+.aboutpar p{
+    width: 72%;
+    font-size: 17px;
+    color: #77ed9d;
+    font-family: cursive;
+}
+label{
+    font-family: 'Lobster Two';
+    font-size: 20px;
+}
+form{
+    background-color: #7fffd49e;
+    width: 20%;
+    margin: auto;
+}
+section h3{
+    text-align: center;
+    font-family: 'Lobster Two';
+    font-size: 25px;
+    color: darkorange;
+}
+button{
+    width: 60%;
+    background-color: chocolate;
+}
+.btn{
+    margin: auto;
+    width: 60%;
+    position: relative;
+    left: 30px;
+}
+button a{
+    color: white !important;
+
+}
